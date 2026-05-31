@@ -2,7 +2,7 @@
 
 **Letta (MemGPT) integration + Ainfera Routing.** Stateful agents with persistent memory blocks — inference routed through Ainfera with signed audit per turn.
 
-Internal dogfood: [Namo](https://github.com/ainfera-ai/ainfera-os/tree/main/agents/namo) (EU AI Act research synthesis).
+Internal dogfood: [Namo](https://ainfera.ai/agents) (EU AI Act research synthesis).
 
 ## Quickstart (curl only)
 
