@@ -36,7 +36,7 @@ When creating agents via `letta-client`, pass an explicit `llm_config` so the pr
 
 ```python
 llm_config={
-    "model": "claude-opus-4-7",
+    "model": "ainfera-inference",
     "model_endpoint_type": "openai",
     "model_endpoint": "https://api.ainfera.ai/v1",
     "context_window": 200000,

@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="claude-opus-4-7",
+    model="ainfera-inference",
     messages=[
         {"role": "user", "content": "Reply with exactly one word: memory"},
     ],

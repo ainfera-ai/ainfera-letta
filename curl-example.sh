@@ -23,7 +23,7 @@ echo "── 2 · Inference via OpenAI-compat shim ──"
 curl -fsS -X POST "$BASE/v1/chat/completions" \
   -H "Authorization: Bearer $AINFERA_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"model":"claude-opus-4-7","messages":[{"role":"user","content":"Reply with one word: routed"}]}' \
+  -d '{"model":"ainfera-inference","messages":[{"role":"user","content":"Reply with one word: routed"}]}' \
   | python3 -m json.tool
 
 if [[ -n "$AGENT_ID" ]]; then
