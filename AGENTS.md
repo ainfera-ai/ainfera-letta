@@ -19,13 +19,13 @@ Open every change with an explicit PASS/FAIL probe of current state (clean tree?
 ```bash
 ./curl-example.sh        # signup → routed inference → audit verify (no Letta server needed)
 # or the same transport Letta uses:
-export AINFERA_API_KEY=ai_infera_...   # https://app.ainfera.ai/signup
+export AINFERA_API_KEY=ainfera_...   # https://app.ainfera.ai/signup
 pip install -r requirements.txt && python main.py
 ```
 Done = the example returns a routed completion **and** an audit receipt the `verify` tool accepts. PR opened ≠ shipped.
 
 ## Secrets — hard rules
-- `AINFERA_API_KEY` (`ai_infera_*`) comes from the environment only. Never commit it; never echo its value. `.env` is gitignored.
+- `AINFERA_API_KEY` (`ainfera_*`) comes from the environment only. Never commit it; never echo its value. `.env` is gitignored.
 - No service-role / provider keys belong in an adapter repo.
 
 ## License
