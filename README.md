@@ -18,7 +18,7 @@ cd ainfera-letta
 
 ```bash
 pip install -r requirements.txt
-export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
+export AINFERA_API_KEY=ainfera_...  # https://app.ainfera.ai/signup
 python main.py
 ```
 
