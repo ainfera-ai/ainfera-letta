@@ -14,6 +14,8 @@ cd ainfera-letta
 ./curl-example.sh   # signup → inference → audit verify
 ```
 
+> **Tip:** Set `AINFERA_BASE_URL` to override the default `https://api.ainfera.ai` — useful for pointing `curl-example.sh` at a staging or local endpoint (e.g. `AINFERA_BASE_URL=http://localhost:8000 ./curl-example.sh`).
+
 ## Quickstart (OpenAI SDK — same transport Letta uses)
 
 ```bash
